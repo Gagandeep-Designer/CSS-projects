@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gagan Devloper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        background-color: #181874;
+        color: #f0f8ff;
+        font-family: "Mochiy Pop P One", sans-serif;
+        font-weight: 400;
+      }
+      nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(59, 59, 165);
+      }
+      nav ul{
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li{
+        list-style: none;
+        margin: 0 23px;
+      }
+      nav ul li a{
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #f0f8ff;
+      }
+      a:hover{
+        color: #EBF400;
+        cursor: pointer;
+        text-shadow: #FFC700 7px 5px 12px;
+      }
+
+      .left{
+        font-size: 1.6rem;
+        color: #ff1493;
+        animation: name 2.5s linear infinite;
+      }
+      @keyframes name{
+        0%{
+         color: #ff0000;
+        }
+        50%{
+          color: #ffff00;
+        }
+        100%{
+          color: #1e90ff;
+        }
+      }
+      .firstsection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 110px 0;
+      }
+      .firstsection > div{
+        width: 30%;
+      }
+      .leftsection{
+        font-size: 3rem;
+        
+      }
+     .rightsection img{
+      width: 80%;
+      margin: 50px 0;
+      filter: drop-shadow(-5px 5px 5px #00ffff);
+     }
+     .color-name{
+      color:#ff00a2;
+     }
+     .textgray{
+      color: #808080;
+     }
+     #element{
+      color: #ff00a2;
+     }
+    main hr{
+      border: 0;
+      background: #1e90ff;
+      height: 1px;
+      margin: 40px 84px;
+     }
+     .secondsection{
+      max-width: 80vh;
+      margin-left: 200px;
+      height: 80vh;
+     }
+     .secondsection h1{
+      font-size: 1.9rem;
+     }
+     .secondsection .box{
+      background: #f0f8ff;
+      width: 65vw;
+      height: 2px;
+      margin: 58px 0;
+      display: flex;
+     }
+     .secondsection .vertical{
+      height: 93px;
+      width: 1px;
+      background-color: #f0f8ff;
+      margin: 0 120px;
+     }
+     .image-top{
+      width: 40px;
+      position: relative;
+      top: -45px;
+      left:-9px;
+     }
+     .vertical-tittle{
+      position: relative;
+      top: 65px;
+      width: 150px;
+      font-size: 18px;
+     }
+     .vertical-desc{
+      position: relative;
+      top: 86px;
+      color: #808080;
+      width: 150px;
+      font-size: 12px;
+     }
+     footer{
+      background-color: #361d36;
+      height: 250px;
+      margin: 20px;
+     }
+     .footer{
+      display: flex;
+      padding: 23px 122px;
+      justify-content: space-evenly;
+     }
+     .footer > div{
+      width: 120px;
+     }
+     .footer-first{
+      color: #ff0000;
+      text-shadow: 4px 3px 4px #ffff00;
+      font-size: 20px;
+     }
+     .footer-second ul li{
+      list-style: none;
+      font-size: 15px;
+      line-height: 2;
+     }
+     .footer-second ul li a{
+      text-decoration: none;
+      color: #1e90ff;
+    }
+    .footer-third ul li{
+      list-style-type:none;
+      font-size: 15px;
+      line-height: 2;
+     letter-spacing: 2px;
+    }
+    .footer-third ul li input{
+      text-decoration:none;
+      color: #1e90ff;
+    }
+    .footer-fourth img{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      
+    }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Gagan's Portfolio</div>
+        <div class="right">
+          <ul>
+           <li><a href="/index.html">home</a></li>
+           <li><a href="/index.html">about</a></li>
+           <li><a href="/index.html">services</a></li>
+           <li><a href="/index.html">projects</a></li>
+           <li><a href="/index.html">contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="color-name">Gagan</span> 
+          <div>and I am passionate</div>
+         <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="/images/bg.png" alt="web img">
+        </div>
+      </section>
+      <hr>
+      <section class="secondsection">
+        <span class="textgray">What I have done so far</span>
+        <h1>Work Experience</h1>
+        <div class="box">
+          <div class="vertical">
+            <img class="image-top" src="/images/html.png" alt="first">
+            <div class="vertical-tittle">
+              HTML Devloper (2010-2012)
+            </div>
+            <div class="vertical-desc">
+              HTML (Hypertext Markup Language) is a simple markup coding language used to layout content on a webpage. 
+            </div>
+          </div>
+
+          <div class="vertical">
+            <img class="image-top" src="/images/css.png" alt="first">
+            <div class="vertical-tittle">
+              CSS Devloper (2013-2016)
+            </div>
+            <div class="vertical-desc">
+              CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and structuring web pages (HTML or XML). This language contains coding elements and is composed of these “cascading style sheets” which are equally called CSS files (. css).
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="/images/devloper_fourth.png" alt="first">
+            <div class="vertical-tittle">
+              JavaScript Devloper (2017-2019)
+            </div>
+            <div class="vertical-desc">
+              JavaScript is a scripting or programming language that allows you to implement complex features on web pages — every time a web page does more than just sit there and display static information for you to look at — displaying timely content updates.
+            </div>
+          </div>
+          <div class="vertical">
+            <img class="image-top" src="/images/devloper_second.png" alt="first">
+            <div class="vertical-tittle">
+             FrontEnd Devloper (2020-2024)
+            </div>
+            <div class="vertical-desc">
+              A web developer’s job is to create websites. While their primary role is to ensure the website is visually appealing and easy to navigate, many web developers are also responsible for the website’s performance and capacity. 
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-first">
+          <h3>Gagan's Devloper Portfolio </h3>
+        </div>
+        <div class="footer-second">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/index.html">About</a></li>
+            <li><a href="/index.html">services</a></li>
+            <li><a href="/index.html">Projects</a></li>
+            <li><a href="/index.html">Contact Me</a></li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li><input type="checkbox">Instagram</li>
+            <li><input type="checkbox">Twiter</li>
+            <li><input type="checkbox">YouTube</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <img src="/images/name_logo.png" alt="logo">
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Devloper', 'Graphic Designer','Video Editor','Branded Logo Designer'],
+      typeSpeed: 50,
+    });
+  </script>
+  </body>
+</html>
